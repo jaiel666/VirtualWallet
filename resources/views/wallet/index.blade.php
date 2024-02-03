@@ -73,11 +73,6 @@
         .edit-button:hover, .delete-button:hover, .history-button:hover {
             background-color: #495057;
         }
-
-
-        .edit-button:hover, .delete-button:hover, .history-button:hover {
-            background-color: #495057;
-        }
     </style>
 </head>
 <body>
@@ -101,7 +96,6 @@
                             <button type="submit" class="delete-button" onclick="return confirm('Are you sure?')">Delete</button>
                         </form>
                         <a class="history-button" href="{{ route('wallet.transactions', $wallet->name) }}">History</a>
-
                     </div>
                 </div>
             @endforeach

@@ -57,14 +57,6 @@
             color: #fff;
         }
 
-        .incoming {
-            background-color: #d4edda;
-        }
-
-        .outgoing {
-            background-color: #f8d7da;
-        }
-
         .back-button {
             display: block;
             text-align: center;
@@ -136,7 +128,7 @@
                     </thead>
                     <tbody>
                     @foreach($transactions as $transaction)
-                        <tr class="@if($transaction->sender_account_name === $wallet->name) outgoing @else incoming @endif">
+                        <tr>
                             <td>{{ $transaction->sender_account_name }}</td>
                             <td>{{ $transaction->receiver_account_name }}</td>
                             <td>${{ number_format($transaction->amount, 2) }}</td>

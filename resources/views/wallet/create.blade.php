@@ -33,10 +33,6 @@
             border-top-right-radius: 8px;
         }
 
-        .card-body {
-            padding: 20px;
-        }
-
         .alert {
             background-color: #d6d8db;
             color: #495057;
