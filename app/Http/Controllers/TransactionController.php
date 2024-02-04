@@ -27,7 +27,7 @@ class TransactionController extends Controller
 
         $senderWallet = auth()->user()->wallets()->where('name', $request->input('sender_wallet_name'))->first();
 
-        $receiverWallet = Wallet::where('name', $request->input('receiver_wallet_name'))->first();
+        $receiverWallet = auth()->user()->wallets()->where('name', $request->input('receiver_wallet_name'))->first();
 
         if ($senderWallet && $receiverWallet) {
             if ($senderWallet->balance >= $request->input('amount')) {
@@ -50,6 +50,7 @@ class TransactionController extends Controller
             return redirect()->route('dashboard')->with('error', 'Sender or receiver wallet not found.');
         }
     }
+
 
     public function toggleFraudulent($id)
     {
