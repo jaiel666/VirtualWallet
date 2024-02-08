@@ -26,42 +26,6 @@ Virtual Wallet is a web application developed using PHP with the Laravel framewo
 
 You can access the Virtual Wallet application by visiting the following link: [Virtual Wallet](https://immensurable-bigamy.000webhostapp.com/)
 
-## Requirements for Setting Up
-To set up the Virtual Wallet project locally, ensure that you have the following prerequisites installed on your system:
-* [Git](https://git-scm.com/download/win)
-* [MySql](https://www.mysql.com/downloads/)
-* [PHP^7.4](https://www.php.net/downloads.php)
-
-
-## Installation Guide
-### Setting up
-
-
-1. **Clone the Repository:**
-   - Clone the Virtual Wallet repository to your local machine.
-
-2. **Install Dependencies:**
-   - Run `composer install` to install the required dependencies.
-
-3. **Database Setup:**
-   - Set up a MySQL database for the application.
-
-4. **Environment Configuration:**
-   - Copy the `.env.example` file and rename it to `.env`.
-   - Configure the database connection settings in the `.env` file.
-
-5. **Generate Application Key:**
-   - Run `php artisan key:generate` to generate an application key.
-
-6. **Run Migrations:**
-   - Run `php artisan migrate` to create the necessary database tables.
-
-7. **Serve the Application:**
-   - Run `php artisan serve` to start the development server.
-
-8. **Access the Application:**
-   - Open your web browser and navigate to the URL provided by the `php artisan serve` command.
-
 ## Usage
 
 Explore the following features of the Virtual Wallet application:
