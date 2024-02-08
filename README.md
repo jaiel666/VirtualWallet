@@ -57,3 +57,16 @@ Virtual Wallet is a web application developed using PHP with the Laravel framewo
 8. **Access the Application:**
    - Open your web browser and navigate to the URL provided by the `php artisan serve` command.
 
+## Usage
+
+Explore the following features of the Virtual Wallet application:
+
+- **Login**: Access the login page to authenticate and access your account.
+- **Register**: Sign up for a new account to start using the virtual wallet services.
+- **Dashboard**: Navigate to the user dashboard to manage your virtual wallets and view transaction history.
+- **Create Wallet**: Create new virtual wallets to organize your funds effectively.
+- **Edit Wallet**: Modify existing wallet names to better suit your needs.
+- **Delete Wallet**: Remove unwanted wallets from your account.
+- **Transactions**: Send and receive funds between virtual wallets seamlessly.
+- **Transaction History**: View detailed transaction history to track your financial activities.
+
