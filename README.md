@@ -26,7 +26,8 @@ Virtual Wallet is a web application developed using PHP with the Laravel framewo
 
 You can access the Virtual Wallet application by visiting the following link: [Virtual Wallet](https://immensurable-bigamy.000webhostapp.com/)
 
-## Requirements
+## Requirements for Setting Up
+To set up the Virtual Wallet project locally, ensure that you have the following prerequisites installed on your system:
 * [Git](https://git-scm.com/download/win)
 * [MySql](https://www.mysql.com/downloads/)
 * [PHP^7.4](https://www.php.net/downloads.php)
