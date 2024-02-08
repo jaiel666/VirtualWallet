@@ -1,23 +1,23 @@
 # Virtual Wallet
 Virtual Wallet is a web application developed using PHP with the Laravel framework, backed by MySql. This project provides users with a secure and user-friendly platform to create virtual wallets, send funds, and view transaction history.
 
-## Features 
+## Features
 
 ### Login Page
-![Login Feature](images/Login.png)
+<img src="images/Login.png" alt="Login Feature" width="400">
 
 ### Register Page
-![Register Feature](images/Register.png)
+<img src="images/Register.png" alt="Register Feature" width="400">
 
 ### User Dashboard
-![User Dashboard Feature](images/Dashboard.png)
+<img src="images/Dashboard.png" alt="User Dashboard Feature" width="400">
 
 ### Create Wallet
-![Create Wallet Feature](images/Create.png)
+<img src="images/Create.png" alt="Create Wallet Feature" width="400">
 
 ### Transactions
-![Transactions Feature](images/Transactions.png)
+<img src="images/Transactions.png" alt="Transactions Feature" width="400">
 
 ### Transaction History
-![Crypto Dashboard Feature](images/History.png)
+<img src="images/History.png" alt="Transaction History Feature" width="400">
 
