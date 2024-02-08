@@ -22,6 +22,9 @@ Virtual Wallet is a web application developed using PHP with the Laravel framewo
 ### Transaction History
 <img src="images/History.png" alt="Transaction History Feature" width="400">
 
+## Accessible
+
+You can access the Virtual Wallet application by visiting the following link: [Virtual Wallet](https://immensurable-bigamy.000webhostapp.com/)
 
 ## Requirements
 * [Git](https://git-scm.com/download/win)
@@ -71,7 +74,5 @@ Explore the following features of the Virtual Wallet application:
 - **Transactions**: Send and receive funds between virtual wallets seamlessly.
 - **Transaction History**: View detailed transaction history to track your financial activities.
 
-## Accessible
 
-You can access the Virtual Wallet application by visiting the following link: [Virtual Wallet](https://immensurable-bigamy.000webhostapp.com/)
 
